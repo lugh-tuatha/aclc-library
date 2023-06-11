@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1 className="text-3xl font-bold underline">
+      <h1 className="text-3xl font-bold underline container mx-auto">
         Hello world!
       </h1>
     </>

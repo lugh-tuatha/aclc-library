@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary: #8fb4ff;
+  --secondary: #ebf1ff;
+  --accent: #ff8f94;
+  --text_color: #000000;
+}
