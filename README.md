@@ -10,4 +10,7 @@ June 10
 - styles navbar
 - setup color pallette
 - linked navbar pages
+June 13
+- create button components
+- create homepage hero
 -->
