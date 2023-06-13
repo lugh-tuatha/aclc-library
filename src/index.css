@@ -28,6 +28,20 @@
   }
 }
 
+.heading {
+  font-size: var(--fs-xl);
+  line-height: 1;
+  font-family: 'Merriweather', serif;
+}
+
+.title{
+  font-size: var(--fs-700);
+}
+
+.desc {
+  font-size: var(--fs-400);
+}
+
 button:hover {
   background-color: #6f96e4;
 }
