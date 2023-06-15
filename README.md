@@ -13,4 +13,12 @@ June 10
 June 13
 - create button components
 - create homepage hero
+June 15
+- help jayson download software for development 
+  - vscode
+  - git
+  - github desktop
+  - git bash
+  - node js
+- create search & nav link components
 -->

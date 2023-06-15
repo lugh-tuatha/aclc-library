@@ -45,3 +45,8 @@
 button:hover {
   background-color: #6f96e4;
 }
+
+/* tailwind apply */
+.search-input{
+  @apply font-semibold placeholder-gray-500 rounded-xl border-none ring-2 ring-gray-300 focus:ring-gray-500 focus:ring-2 outline-none;
+}
