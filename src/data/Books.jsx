@@ -14,11 +14,13 @@ export const books = [
     cover: visualBasic2008,
     title: "Visual Basic 2008",
     author: "James Foxall",
+    popular: true,
   },
   {
     cover: linuxCommandLine,
     title: "Linux Command Line",
     author: "Richard Blum",
+    popular: true,
   },
   {
     cover: VisualBasicNet,
@@ -34,6 +36,7 @@ export const books = [
     cover: MicrosoftWindows,
     title: "Microsoft Windows Vista",
     author: "Chris Fehily",
+    popular: true,
   },
   {
     cover: TextDataManagement,
@@ -54,10 +57,12 @@ export const books = [
     cover: CollegeAlgebra,
     title: "College Algebra",
     author: "Nora A. Oredina",
+    popular: true,
   },
   {
     cover: Thinking,
     title: "Thinking C++",
     author: "Sunil K. Pandey",
+    popular: true,
   },
 ]
