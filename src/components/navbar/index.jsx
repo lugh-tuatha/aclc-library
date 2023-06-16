@@ -10,7 +10,7 @@ import Button from '../button'
 
 function Navbar() {
   return (
-    <nav className='container mx-auto flex justify-between cursor-pointer py-4'>
+    <nav className='container mx-auto flex-between cursor-pointer py-4'>
       <div className='flex gap-20'>
         <img src={logo} alt="logo" className='w-44'/>
 

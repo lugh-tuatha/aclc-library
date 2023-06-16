@@ -54,3 +54,7 @@ button:hover {
 .flex-center{
   @apply flex justify-center;
 }
+
+.flex-between{
+  @apply flex justify-between;
+}
