@@ -6,7 +6,7 @@ import AllBooks from '../../components/all-books'
 
 function Books() {
   return (
-    <div className='container mx-auto'>
+    <div className='page-container'>
       <Navbar />
       <Search />
       <Tabs />

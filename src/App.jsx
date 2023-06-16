@@ -9,7 +9,7 @@ import Footer from './components/footer'
 function App() {
 
   return (
-    <div className='w-11/12 container mx-auto'>
+    <div className='page-container'>
       <Navbar />
       <div className='mt-20'>
         <div className='md:w-1/2'>

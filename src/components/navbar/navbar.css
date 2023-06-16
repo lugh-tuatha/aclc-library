@@ -1,3 +1,15 @@
 ul li a.active{
   color: var(--primary);
 }
+
+.search-container {
+  @apply relative items-center text-gray-400 focus-within:text-gray-600;
+}
+
+.search-icon{
+  @apply w-5 h-5 absolute ml-3 pointer-events-none;
+}
+
+.search-padding{
+  @apply pr-3 pl-10 py-2;
+}

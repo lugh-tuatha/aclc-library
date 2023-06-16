@@ -63,6 +63,14 @@ button:hover {
   @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-12;
 }
 
+.page-container{
+  @apply w-11/12 container mx-auto;
+}
+
+.flex-middle{
+  @apply flex items-center;
+}
+
 /* reusable class */
 .book{
   aspect-ratio: 12/16;

@@ -25,7 +25,10 @@ June 15
 - create search & filter components
 June 16
 8 === 6pm
-- Filter the book with a popular tag 
-
 unusual hilichurl === 11;
+- Filter the book with a popular tag 
+- Make the Home & Books page responsive with mobile
+  - navbar
+  - books grid layout
+  - container
 -->
