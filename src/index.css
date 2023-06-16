@@ -58,3 +58,12 @@ button:hover {
 .flex-between{
   @apply flex justify-between;
 }
+
+.books-layout{
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-12;
+}
+
+/* reusable class */
+.book{
+  aspect-ratio: 12/16;
+}

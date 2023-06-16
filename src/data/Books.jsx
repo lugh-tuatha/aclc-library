@@ -30,7 +30,7 @@ export const books = [
   {
     cover: JoseRizal,
     title: "Life, Works and Writings of Dr. Jose P. Rizal",
-    author: "",
+    author: "Mariano M. Ariola",
   },
   {
     cover: MicrosoftWindows,
@@ -45,8 +45,8 @@ export const books = [
   },
   {
     cover: DotNet,
-    title: "Dot Net Nuke Websites",
-    author: "",
+    title: "DotNetNuke Websites",
+    author: "Tracy Wittenkeller",
   },
   {
     cover: UnderstandingSystems,
