@@ -31,5 +31,6 @@ June 16
   - container
 June 17
 unusual hilichurl === 13;
-- 
+- create home hero images
+- add unique id to books 
 -->
