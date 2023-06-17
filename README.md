@@ -24,11 +24,12 @@ June 15
   - node js
 - create search & filter components
 June 16
-8 === 6pm
-unusual hilichurl === 11;
 - Filter the book with a popular tag 
 - Make the Home & Books page responsive with mobile
   - navbar
   - books grid layout
   - container
+June 17
+unusual hilichurl === 13;
+- 
 -->

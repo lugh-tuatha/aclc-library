@@ -14,21 +14,18 @@ function Navbar() {
 
   return (
     <nav className='cursor-pointer py-4'>
-      <div className='flex-between gap-20 w-full'>
-        <img src={logo} alt="logo" className='w-44'/>
+      <div className='flex-between w-full'>
+        <div className='flex-between gap-12'>
+          <img src={logo} alt="logo" className='w-44'/>
 
-        {/*------------- Mobile Menu -------------*/}
-        <div className='md:hidden flex-middle text-4xl' onClick={() => setOpen(!open)}>
-          {open ? <Ai.AiOutlineClose /> : <Ai.AiOutlineMenu /> }
-        </div>
-
-        <ul className='hidden md:flex gap-8 font-semibold text-lg items-center'>
+          <ul className='hidden md:flex gap-8 font-semibold text-lg items-center'>
           {NavLinks.map((links) => (
-            <li>
+            <li key={links.id} >
               <NavLink to={links.link}>{links.name}</NavLink>
             </li>
           ))}
-        </ul>
+          </ul>
+        </div>
 
         <div className='hidden md:flex items-center gap-8'>
           {/*------------- Search input -------------*/}
@@ -39,6 +36,11 @@ function Navbar() {
 
           <Button>Contact us</Button>
         </div>
+
+        {/*------------- Mobile Menu -------------*/}
+        <div className='md:hidden flex-middle text-4xl' onClick={() => setOpen(!open)}>
+          {open ? <Ai.AiOutlineClose /> : <Ai.AiOutlineMenu /> }
+        </div>
       </div>
 
       {/*------------- Mobile links -------------*/}
@@ -46,12 +48,12 @@ function Navbar() {
         <div className='w-11/12 mx-auto'>
           <div className='flex search-container my-4'>
             <Ai.AiOutlineSearch className='search-icon'/>
-            <input type="text" name='search' placeholder='Search books' autoComplete='off' className='search-padding w-full mx-auto search-input'/>
+            <input type="text" name='search' placeholder='Search books' autoComplete='off' className='search-padding w-full search-input'/>
           </div>
 
           <ul className='font-semibold text-lg'>
             {NavLinks.map((links) => (
-              <li className='mb-4'>
+              <li key={links.id} className='mb-4'>
                 <NavLink to={links.link}>{links.name}</NavLink>
               </li>
             ))}

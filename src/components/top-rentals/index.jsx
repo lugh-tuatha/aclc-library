@@ -12,7 +12,7 @@ function TopRentals() {
         {books
           .filter((book) => book.popular)
           .map((popular_books) => (
-          <div>
+          <div key={popular_books.id}>
             <img src={popular_books.cover} alt="book cover" className='book w-full' />
 
             <p className='desc font-semibold mt-2'>{popular_books.title}</p>
