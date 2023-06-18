@@ -1,3 +1,4 @@
+import Researching from '../assets/book-cover/researching.png'
 import visualBasic2008 from '../assets/book-cover/visual-basic-2008.jpg'
 import linuxCommandLine from '../assets/book-cover/linux-command-line.jpg'
 import VisualBasicNet from '../assets/book-cover/visual-basic.net-diane-zak.jpg'
@@ -8,13 +9,15 @@ import DotNet from '../assets/book-cover/dot_net.jpg'
 import UnderstandingSystems from '../assets/book-cover/understanding_systems.jpg'
 import CollegeAlgebra from '../assets/book-cover/college_algebra.jpg'
 import Thinking from '../assets/book-cover/thinking_c++.jpg'
+import ProgrammingConcepts from '../assets/book-cover/programming-concepts.png'
+import PHP_Sql from '../assets/book-cover/php&mysql.png'
 
 export const books = [
   {
     id: 0,
-    cover: visualBasic2008,
-    title: "Visual Basic 2008",
-    author: "James Foxall",
+    cover: Researching,
+    title: "Researching",
+    author: "Jose Eos Trinidad",
   },
   {
     id: 1,
@@ -80,5 +83,17 @@ export const books = [
     title: "Thinking C++",
     author: "Sunil K. Pandey",
     popular: true,
+  },
+  {
+    id: 11,
+    cover: ProgrammingConcepts,
+    title: "Programming Concepts",
+    author: "Nilo M. Padre",
+  },
+  {
+    id: 12,
+    cover: PHP_Sql,
+    title: "How to do Everything with PHP & MySQL",
+    author: "Vikram Vaswani",
   },
 ]

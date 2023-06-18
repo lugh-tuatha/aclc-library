@@ -11,6 +11,7 @@ export default {
         secondary: "#ebf1ff",
         accent: "#ff8f94",
         text_color: "#000000",
+        text_white: "#fdfefe",
       },
     },
   },

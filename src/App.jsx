@@ -8,6 +8,7 @@ import Footer from './components/footer'
 
 import sample from './assets/book-cover/college_algebra.jpg'
 import { books } from './data/Books'
+import GetToKnow from './components/get-to-know'
 
 function App() {
   const selectedBooks = [];
@@ -52,6 +53,8 @@ function App() {
       </div>
 
       <TopRentals />
+
+      <GetToKnow />
       <Footer />
     </div>
   )
