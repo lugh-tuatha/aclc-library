@@ -24,7 +24,7 @@ June 15
   - node js
 - create search & filter components
 June 16
-- Filter the book with a popular tag 
+- Filter the book with a popular tag
 - Make the Home & Books page responsive with mobile
   - navbar
   - books grid layout
@@ -32,5 +32,7 @@ June 16
 June 17
 unusual hilichurl === 13;
 - create home hero images
-- add unique id to books 
+- add unique id to books
+June 18
+- create get to know section in homepage
 -->

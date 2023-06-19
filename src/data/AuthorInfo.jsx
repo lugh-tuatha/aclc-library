@@ -6,7 +6,7 @@ export const AuthorInfo = [
     id: 0,
     image: JKRowling,
     name: "J.K. Rowling",
-    about: "British author known for creating the immensely popular Harry Potter series. Her books, which follow the adventures of a young wizard named Harry Potter, captivated millions of readers worldwide and have been adapted into a successful film franchise.",
+    about: "British author known for creating the immensely popular Harry Potter series. Her books, which follow the adventures of a young wizard named Harry Potter, captivated millions of readers worldwide.",
   },
   {
     id: 1,
