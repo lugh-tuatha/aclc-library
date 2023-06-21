@@ -11,6 +11,7 @@ import CollegeAlgebra from '../assets/book-cover/college_algebra.jpg'
 import Thinking from '../assets/book-cover/thinking_c++.jpg'
 import ProgrammingConcepts from '../assets/book-cover/programming-concepts.png'
 import PHP_Sql from '../assets/book-cover/php&mysql.png'
+import IntroToJava from '../assets/book-cover/intro-to-java.png'
 
 export const books = [
   {
@@ -95,5 +96,11 @@ export const books = [
     cover: PHP_Sql,
     title: "How to do Everything with PHP & MySQL",
     author: "Vikram Vaswani",
+  },
+  {
+    id: 13,
+    cover: IntroToJava,
+    title: "Introduction to Java Programming",
+    author: "K. Somasundaram",
   },
 ]
