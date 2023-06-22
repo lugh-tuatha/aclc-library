@@ -36,31 +36,31 @@ function Footer() {
 
         <div className='px-4 flex flex-col '>
           <p href="#" className='font-bold text-base lg:text-lg pb-2'>Menu</p>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Home</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>About</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Books</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Blog</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Home</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>About</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Books</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Blog</a>
         </div>
         <div className='px-4 flex flex-col '>
         <p href="#" className='font-bold text-base lg:text-lg pb-2'>Menu</p>
-        <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Home</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>About</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Books</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Blog</a>
+        <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Home</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>About</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Books</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Blog</a>
         </div>
         <div className='px-4 flex flex-col '>
         <p href="#" className='font-bold text-base lg:text-lg pb-2'>Menu</p>
-        <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Home</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>About</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Books</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Blog</a>
+        <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Home</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>About</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Books</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Blog</a>
         </div>
         <div className='px-4 flex flex-col '>
         <p href="#" className='font-bold text-base lg:text-lg pb-2'>Menu</p>
-        <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Home</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>About</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Books</a>
-          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-primary-100 text-sm lg:text-base'>Blog</a>
+        <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Home</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>About</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Books</a>
+          <a href="#" className='font-semibold pb-1 text-gray-500 hover:text-gray-600 hover:underline text-sm lg:text-base'>Blog</a>
         </div>
 
         </div>
@@ -74,7 +74,7 @@ function Footer() {
         <div className=' mt-1 flex flex-row font-semibold justify-evenly lg:justify-normal'>
         <p className='text-xs lg:text-base lg:pr-3 tracking-tighter'>2023 ACLC Library.</p>
         <p className='text-xs lg:text-base lg:pr-3 tracking-tighter'>All right reserved.</p>
-        <a href="#" className='text-xs lg:text-base lg:pr-3 tracking-tighter hover:underline hover:underline'>Privacy Policy</a>
+        <a href="#" className='text-xs lg:text-base lg:pr-3 tracking-tighter hover:underline'>Privacy Policy</a>
         <a href="#" className='text-xs lg:text-base lg:pr-3 tracking-tighter hover:underline'>Terms of service</a>
         </div>
 
