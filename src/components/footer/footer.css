@@ -1,0 +1,3 @@
+.footer-links{
+  @apply font-semibold mb-1 text-gray-500 hover:text-primary-100;
+}
