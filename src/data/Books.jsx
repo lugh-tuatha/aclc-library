@@ -19,6 +19,7 @@ export const books = [
     cover: Researching,
     title: "Researching",
     author: "Jose Eos Trinidad",
+    genre: "Technology",
   },
   {
     id: 1,
@@ -26,6 +27,7 @@ export const books = [
     title: "Visual Basic 2008",
     author: "James Foxall",
     popular: true,
+    genre: "Technology",
   },
   {
     id: 2,

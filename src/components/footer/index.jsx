@@ -54,7 +54,6 @@ function Footer() {
               <p className='font-semibold mb-1 text-gray-500'>Thursday: <span className='text-accent'>8:00 AM - 6:00 PM</span></p>
               <p className='font-semibold mb-1 text-gray-500'>Friday: <span className='text-accent'>8:00 AM - 6:00 PM</span></p>
               <p className='font-semibold mb-1 text-gray-500'>Saturday: <span className='text-accent'>8:00 AM - 6:00 PM</span></p>
-              <p className='font-semibold mb-1 text-gray-500'>Sunday: <span className='text-accent'>CLOSED</span></p>
             </div>
 
             <div className='flex flex-col '>
